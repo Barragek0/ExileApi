@@ -61,7 +61,7 @@ namespace GameOffsets
     [StructLayout(LayoutKind.Explicit, Pack = 1)]
     public struct ServerDataOffsets
     {
-        public const int Skip = 0x8000;
+        public const int Skip = 0x8001;
 
         [FieldOffset(0x8D20 - Skip)] public readonly long PlayerRelatedData;
         [FieldOffset(0x8D38 - Skip)] public readonly byte NetworkState;
